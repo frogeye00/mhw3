@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  background-color: gray;
+}
+a {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 15px;
+  border-radius: 50px;  
+  text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  height: 70px;
+  
+  }
+
+header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.snapitaly.it/wp-content/uploads/2020/08/cinema-auditorium-with-white-blank-bright-screen-43605-2975.jpg);
+  height:600px;
+  position :relative;
+}
+
+#overlay {
+  background-color:rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#title{
+  font-weight: 100;
+  font-size: 40px;
+  font-family: 'Times New Roman',  sans-serif;
+  margin: 0px;
+  color: white;
+  max-width: 600px;
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+
+section{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ol{
+  width: 60%;
+}
+
+li{
+  list-style-type: upper-roman;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Courier New', sans-serif;
+  margin-bottom: 100px;
+}
+.listelement{
+  margin-left: 30px;
+}
+
+.listimg{
+  width: 100%;
+  height: 600px;
+}
+
+.listelement h2{
+  margin-bottom: 30px;
+}
+
+.listelement p{
+  font-weight: 50;
+  font-size: 18px;
+  font-family: Elvetica,  sans-serif;
+  margin-bottom: 20px;
+  line-height: 30px;
+  
+}
+
+footer{
+  background-color: black;
+  height: 130px;
+}
+
+#footer{
+  font-weight: 100;
+  font-size: 20px;
+  font-family: 'Courier New', sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+.api-view{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+@media (max-width: 750px) {
+  .listelement {
+    margin-left: 10px;
+  }
+
+  section{
+    margin-top: 30px;
+  }
+
+  ol{
+    width: 80%;
+  }
+
+  .listimg{
+    height: 300px;
+  }
+
+  li{
+    margin-bottom: 50px;
+  }
+}
+
+strong{
+  font-weight: bold ;
+}
